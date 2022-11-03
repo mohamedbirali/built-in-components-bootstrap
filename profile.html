@@ -14,41 +14,40 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=afad4525f1b4b0f8763e671324ba37b3">
     <link rel="manifest" href="manifest.json?h=2e8a008dd61f182ceee5872203c66665">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css?h=54d09f91e88eea0a052c98a09c02ba2b">
     <link rel="stylesheet" href="assets/css/styles.min.css?h=fefa617d7fa883f007f66f7624d967d8">
 </head>
 
 <body>
     <!-- Start: Navbar Centered Links -->
-    <nav class="navbar navbar-dark navbar-expand-md sticky-top navbar-shrink py-3" style="border-bottom-style: none;" id="mainNav">
-        <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" href="/"><span class="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chat-text fs-2">
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top navbar-shrink py-3" id="mainNav">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><span class="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chat-text fs-2">
                         <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"></path>
                         <path d="M4 5.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8zm0 2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"></path>
                     </svg></span><span>sendit</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto"></ul>
-                <div class="d-flex d-sm-flex justify-content-center justify-content-sm-center"><a class="btn btn-light bg-light shadow" role="button" href="login.html" style="margin: 1px;background: rgb(55, 99, 244);color: rgb(55,99,244);">login</a><a class="btn btn-primary shadow" role="button" href="register.html" style="margin: 1px;border-radius: 32px;">register</a></div>
+                <div class="d-flex d-sm-flex justify-content-center justify-content-sm-center"><a class="btn btn-primary shadow" role="button" href="profile.html" style="margin: 1px;">profile</a><a class="btn btn-light bg-light shadow" role="button" href="login.html" style="margin: 1px;background: rgb(55, 99, 244);color: rgb(55,99,244);">logout</a></div>
             </div>
         </div>
     </nav><!-- End: Navbar Centered Links -->
     <!-- Start: 1 Row 1 Column -->
     <div class="container">
-        <div class="row d-xl-flex d-xxl-flex justify-content-center">
+        <div class="row justify-content-center">
             <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                <!-- Start: Login Form -->
-                <div class="card" style="background: var(--bs-card-cap-bg);border-radius: 16px;">
-                    <div class="card-body text-center d-flex flex-column align-items-center" style="background: rgb(39,38,46);position: relative;border-color: var(--bs-navbar-hover-color);border-radius: 16px;">
-                        <div class="bs-icon-xl bs-icon-circle bs-icon-primary shadow bs-icon my-4"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person">
-                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
-                            </svg></div>
+                <!-- Start: Registration Form -->
+                <div class="card" style="background: rgb(39,38,46);border-radius: 16px;">
+                    <div class="card-body text-center d-flex flex-column align-items-center" style="border-radius: 16px;">
+                        <div class="d-lg-flex align-items-lg-end mb-3"><img class="rounded-circle img-fluid" loading="lazy" src="assets/img/3.png?h=efc60cf819a8e768244e224933e93f20" width="80" height="80"><i class="fas fa-pencil-alt text-primary text-bg-light" style="margin-left: -25px;font-size: 25px;margin-bottom: 0px;border-top-left-radius: 17px;border-bottom-right-radius: 16px;"></i></div>
                         <form method="post">
-                            <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-                            <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-                            <div class="mb-3"><button class="btn btn-primary shadow d-block w-100" type="submit">Log in</button></div>
-                            <p class="text-muted">Don't have an account?&nbsp;<a href="register.html">Register</a></p>
-                            <p class="text-muted">Forgot your password?</p>
+                            <div class="mb-3"><input class="form-control" type="text" name="username" placeholder="username" autocomplete="on" value="pierre"></div>
+                            <div class="mb-3"><input class="form-control" type="text" name="firstName" placeholder="first name" inputmode="email"></div>
+                            <div class="mb-3"><input class="form-control" type="text" name="lastName" placeholder="last name" inputmode="email"></div>
+                            <div class="mb-3"><input class="form-control" type="tel" name="phoneNumber" placeholder="0622334455" inputmode="tel"></div>
+                            <div class="mb-3"><button class="btn btn-primary shadow d-block w-100" type="submit">save</button></div>
                         </form>
                     </div>
-                </div><!-- End: Login Form -->
+                </div><!-- End: Registration Form -->
             </div>
         </div>
     </div><!-- End: 1 Row 1 Column -->
